@@ -1,12 +1,15 @@
-import  SimpleSlider  from "./Slider/Slider.js";
+import SimpleSlider from "./Slider/Slider.js";
+import {Category} from "./Category/Category.js";
+
 
 const Main = () => {
   return (
     <div>
-      <SimpleSlider/>
-      <h1>Main</h1>
+      <SimpleSlider />
+      <Category />
+      
     </div>
   );
-}
+};
 
 export default Main;
