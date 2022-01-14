@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import s from "../Slider/Slider.module.css";
+import "../Slider/Slider.css";
 import ImgDiv from "./ImgDiv/ImgDiv";
 
 let slider_data = [
@@ -41,7 +41,7 @@ export default class SimpleSlider extends Component {
     };
 
     return (
-      <div className={s.slider}>
+      <div className="slider">
         <Slider {...settings}>{slider_elements}</Slider>
       </div>
     );

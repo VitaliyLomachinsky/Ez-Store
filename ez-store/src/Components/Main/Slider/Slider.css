@@ -1,0 +1,7 @@
+.slider{
+  margin: 10px 0;
+}
+
+.slick-arrow::before{
+  color:black;
+}
