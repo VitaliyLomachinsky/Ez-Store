@@ -1,0 +1,108 @@
+.header {
+  border-bottom: 1px solid #192a51;
+  width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 10px;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.logo_div {
+  display: inline-block;
+}
+
+.img_logo {
+  display: inline;
+  width: 80px;
+  height: 80px;
+  vertical-align: middle;
+}
+
+.text_logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.title {
+  color: black;
+  display: block;
+  font-family: system-ui;
+  font-size: 24px;
+  font-weight: 600;
+}
+.little_title {
+  display: inline-block;
+  color: #192a51;
+}
+
+.basket {
+  display: inline-block;
+  background-color: #aaa1c8;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.basket_inside {
+  margin: 0 auto;
+  width: 180px;
+  vertical-align: middle;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  display: inline-block;
+  height: 27.2px;
+  width: 50%;
+  text-align: center;
+  color:black;
+
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0;
+}
+
+.basket_btn {
+  display: inline-block;
+  height: 30px;
+  width: 50%;
+  text-align: center;
+  padding: 0;
+  font-weight: 300;
+  font-size: 20px;
+  border-left: 1px solid #192a51;
+}
+
+.basket_icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+.valut {
+  width: auto;
+  font-size: 20px;
+  display: inline;
+  color: #f5e6e8;
+}
+.number {
+  display: inline;
+  vertical-align: middle;
+  margin-left: 5px;
+  font-weight: 400;
+  color: #f5e6e8;
+  font-size: 22px;
+}

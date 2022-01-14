@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@progress/kendo-react-dropdowns": "^4.13.0"
+  }
+}
